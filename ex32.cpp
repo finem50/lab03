@@ -7,7 +7,9 @@ using namespace std;
 int main(void){
 
   int a, b;
+  int choice=1;
 
+  while(choice == 1){
   cout << "Enter two values: \n";
   cout << "Compute: <Enter>: ";
   cin >> a;
@@ -18,5 +20,9 @@ int main(void){
 
   cout << a << " to the power of " << b << " is = " << p << endl;
 
-    return 0;
+  cout << "Would you like to calculate more? Enter 1 for yes, 0 for no: " << endl;
+  cin >> choice;
+  }
+
+  return 0;
 }

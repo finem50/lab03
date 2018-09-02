@@ -7,7 +7,7 @@ int main(){
   cout << "Enter a temperature in Fahrenheit \n";
   cin >> t_in_fah;
 
-  t_in_cel=5/9*(t_in_fah-32);
+  t_in_cel=5/9*(t_in_fah - 32);
   cout << "The temperature in Celsius is: " << t_in_cel << endl;
 
   return 0;
