@@ -39,7 +39,7 @@ int main(void){
     cout << "The volume of the cylinder is " << volume(r,h) << " inch-cubed\n\n";
 
   } else if(choice == 2){
-    cout << "Enter the radius of the circle in cm <Enter>: ";
+    cout << "Enter the radius of the sphere in cm <Enter>: ";
     cin >> r;
     cout << endl;
     cout << "Before I do any computation or call any function, I want to let you know that \n";
@@ -73,7 +73,7 @@ double area(double r, double h){ //Compute side-area of a cylinder
   return area;
 }
 
-double surface_area(double r){ //Compute surface-area of a circle
+double surface_area(double r){ //Compute surface-area of a sphere
 //We are unable to overload this function due to there already existing another function
 //in which the parameter is double r
 
@@ -83,7 +83,7 @@ double surface_area(double r){ //Compute surface-area of a circle
   return surface_area;
 }
 
-double volume(double r){ //Compute volume of a circle
+double volume(double r){ //Compute volume of a sphere
 
   double volume;
   r = r * conversion;
